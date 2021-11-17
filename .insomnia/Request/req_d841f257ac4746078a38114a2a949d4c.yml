@@ -1,0 +1,82 @@
+_id: req_d841f257ac4746078a38114a2a949d4c
+type: Request
+parentId: fld_b00458058301450db3e5c88d3c2b3fd7
+modified: 1637123868698
+created: 1637123813071
+url: https://eduapp.educase.ch:62120/graphql
+name: duke-request
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query courseDetail(\n\t$id: String\n\t$participantsParams:
+    CourseParticipantQueryInputType\n) {\n\tcourse {\n\t\tcourseDetail(id: $id)
+    {\n\t\t\tid\n\t\t\tparticipants(participantsParams: $participantsParams)
+    {\n\t\t\t\tid\n\t\t\t\tparticipantStatus\n\t\t\t\tassignedClassIds\n\t\t\t\tgroupWork\n\t\t\t\texitReasonId\n\t\t\t\tremark\n\t\t\t\tvalidFrom\n\t\t\t\tvalidTo\n\t\t\t\tpersonDetail
+    {\n\t\t\t\t\t...participantInformation\n\t\t\t\t}\n\t\t\t}\n\t\t\tstudentDispensations
+    {\n\t\t\t\tid\n\t\t\t\tpersonId\n\t\t\t\treason\n\t\t\t\tdispensedFrom\n\t\t\t\tdispensedTo\n\t\t\t}\n\t\t}\n\t}\n}\n\nfragment
+    participantInformation on PersonDetailType {\n\tnaturalPersonData
+    {\n\t\tid\n\t\tbirthdate\n\t\tfirstName\n\t\tgender\n\t\tisDisabled\n\t\tlastName\n\t\taddressSummary
+    {\n\t\t\tcity\n\t\t\temail\n\t\t\temailUsage\n\t\t\tstreetNumber\n\t\t\tphone\n\t\t\tphoneUsage\n\t\t\tstreet\n\t\t\tzipCode\n\t\t}\n\t}\n}\n","variables":{"id":"xri://@openmdx*org.opencrx.kernel.activity1/provider/EDUCASE/segment/AES/activity/LL7LFXZZ1KHD83GBER1PPEXQP","participantsParams":{"roles":["STUDENT"],"includeFormer":true}},"operationName":"courseDetail"}'
+parameters: []
+headers:
+  - name: Connection
+    value: keep-alive
+    id: pair_124eecb4572b4d60a4a4db7e3b510244
+  - name: sec-ch-ua
+    value: '" Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"'
+    id: pair_95b95dfbe08b443fb3cfe55f28617cd9
+  - name: accept
+    value: "*/*"
+    id: pair_449cbbacc9ca4317a40fdaaa95f43ea9
+  - name: content-type
+    value: application/json
+    id: pair_ce27662dab93433ab68545999a861fa9
+  - name: authorization
+    value: Bearer
+      eyJhbGciOiJSUzI1NiIsImtpZCI6IkQ1REU2NDJGQTc4RTlDNTAxMDI2QzQ2RURDRjAwQTdCNDk5M0MzRUIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiIxZDVrTDZlT25GQVFKc1J1M1BBS2UwbVR3LXMifQ.eyJuYmYiOjE2MzcxMjI1MzAsImV4cCI6MTYzNzE1MTMzMCwiaXNzIjoiaHR0cHM6Ly9lZHVhcHAuZWR1Y2FzZS5jaDo2MjA5MyIsImF1ZCI6WyJodHRwczovL2VkdWFwcC5lZHVjYXNlLmNoOjYyMDkzL3Jlc291cmNlcyIsImlkZW50aXR5cHJvZmlsZSIsImFjY2Vzc3Byb2ZpbGUiLCJvcGVuY3J4X2FjY2VzcyIsIm9wZW5jcnhfaWRlbnRpdHkiXSwiY2xpZW50X2lkIjoiMkJGcm9udGVuZFZORGV2Iiwic3ViIjoiMjM2OTY0MzQtNGRjOS00MWIzLWJkMTItMjBiYzJmMGQwN2JjIiwiYXV0aF90aW1lIjoxNjM3MTEyNjM2LCJpZHAiOiJsb2NhbCIsInVzciI6ImJuZS5hZG1pbiIsImZ1bGxuYW1lIjoiYm5lLmFkbWluIiwibmFtZSI6ImJuZS5hZG1pbiIsIm1hbmRhbnRfaWQiOiIwNjdiNGZiOS05OWZmLTQ1NjctYTRlMy05OWU4NTgwODA2OWIiLCJtYW5kYW50X25hbWUiOiJOZXcgREVWIiwiY3J4X3NlZ21lbnQiOiJBRVMiLCJqdGkiOiIxZDZkYTE2OGQyZWIyY2Y0OGYwYzRiYzU2NTJiMzJhZiIsInNjb3BlIjpbIm9wZW5pZCIsImlkZW50aXR5cHJvZmlsZSIsImFjY2Vzc3Byb2ZpbGUiLCJvcGVuY3J4X2FjY2VzcyIsIm9wZW5jcnhfaWRlbnRpdHkiXSwiYW1yIjpbInB3ZCJdfQ.wzuhmDfi_UBtRXmqDMrFBnKvUrqxLkqsWvpFU7xrbHZapjzapHe-aO2iO42RbMAdxjyW1dSm7nqXTS5zaWLjqlzgmoJtcDW_OCAg8fGr70up0nKT32MYv8w-mHvUjZmIhHYxQMXEj5fcFOc99mMwA2Q1nXBN1hW3LNJ-kKzS6s_3CNgeQJz6i1przZPWRoI1cwSQUHLYtMdN9os1cgs1HKksoJZ_hPk1UOi3VZKQyDHveuw2cJGJCFcmIWDy7Rau2psHJEqTl4jnn1i8luG5QuP498DazTjO-TcFB274rq9e7KIvUtDLlkoZMGeD0JSGCZvxIGo35m5_cHnoL-9Vyw
+    id: pair_223f2c5837dc4b35a1e4d87b613b98a2
+  - name: sec-ch-ua-mobile
+    value: ?0
+    id: pair_4e2fc82d64ae4e7eae26638ac06a065d
+  - name: User-Agent
+    value: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like
+      Gecko) Chrome/96.0.4664.45 Safari/537.36
+    id: pair_049c7a7c27c34203a2bc82e1c1c6fd33
+  - name: sec-ch-ua-platform
+    value: '"Windows"'
+    id: pair_cac19c64f80a4ebe9f8366e1eb4607a6
+  - name: Origin
+    value: https://eduapp.educase.ch:62120
+    id: pair_54e46e3475ac4db292f552a90b62148f
+  - name: Sec-Fetch-Site
+    value: same-origin
+    id: pair_6db9b820c20e41fcaa83610856bcdca7
+  - name: Sec-Fetch-Mode
+    value: cors
+    id: pair_cb81ab5352144216a6965fac62b800da
+  - name: Sec-Fetch-Dest
+    value: empty
+    id: pair_df02c9a11c4e4b019aa0ad181440fcad
+  - name: Referer
+    value: https://eduapp.educase.ch:62120/index.html
+    id: pair_05d03e31917e40fe8d821529e3ce53e8
+  - name: Accept-Language
+    value: en,vi-VN;q=0.9,vi;q=0.8,fr-FR;q=0.7,fr;q=0.6,en-US;q=0.5
+    id: pair_a3993464a8c54f3799907dd58cbe42b6
+  - name: Cookie
+    value: .AspNetCore.Culture=c%3Den%7Cuic%3Den;
+      .AspNetCore.Antiforgery.XPucmAPmgBQ=CfDJ8JX97XhVi-VJj-MCsVggn6yExW5TX6fm52WX3j-MOVO2UPBKQlX15ew07LUmtK_sceVtiQXGo42qYfTFZZAeP26OfHJQDJwTqNzJSDtoKRTrIr0H1dn4fvneU8flmbEOPuPavJafeJUla5m4nv5p1r8;
+      idsrv.session=415ac45b7764f50ea14f039414204151;
+      .AspNetCore.Identity.Application=CfDJ8JX97XhVi-VJj-MCsVggn6xqwX9Y237EGM4cMLJGSnFcindECVVz6-1EdmT5MTgdl4NPDg98Uc9rtznIc4FwA1JMKcROSdYfaWR3vhGJtKVnRIYF5pCsnX78v9HG0QHdL--6us6vd_Di7RILxkbION7VKTV-7Lqk_hBPUVBJP09BgiLLyenz1pRQhwNrOpyZChXsrNlag3bHkaKdofutDISACA4PaXMQ9jyFXeQA_kpO3cd0qa_cPgffrR9CZTLC_SPNZ8I7wHkRQXqXgEvyAWWiY-e_0I3gNdAAZ_B2muS0FbbJ_bIYFWM59woIW2Gsm4iRdWtZ6sXFMwYKwfIl3EBn2wR46dMZB1peq9j0saH0lyZIdkZoHpFTZTsXNT6L6LRlot0Iaup9RsFde2nDmqHKHBqBVTDVBEVzQBlK34F2WnTRTmugJkmL4r_8wKNeHlkmaX1iBqhn5Hc-bk0DAniPQNdGDg9uLVPgKSLAEAXcDsvEMqZHGfRopalG6LBGsCt9vNeiFfCRtiRXSeH5bkXmM8fRoMY2I4Giumeq8f48ZnspSBqH4Y8cEafcu6ZnuyBqP_fwyjeDGJJvkBGmgdHzLdUiu10UxF3hgmv-3ScfRf_9kXhnkaJQb-X5ZhoraGCJfXc5HHjXxmIUEJ6UdsLOJf49cgaVv20uAJRGZ7yfBl6Z04pzVYjwxSAp7M4JTpeWBiopKiNq_v_c3lwtqJQQrXrVadW2SQxhAVK9nm8AMD7Ov4THebmgSmERNgL4Qvs1sEknSYAvKOuOYxH27iT81apB9MulhfvBrIpic02HCsmVP5sGy5gm8Alabtp5Cd06PEV0a0YVieujclJNYJzL30DrGy6uMosdNvx7AYQSPNL6Ymzc8gqEbvXTCIf2mObQtNNyv5JsmUf0OA9tbk6h3oaTERtqC-jf6JyUhnVc9KKXjiqDkpFz0j3--FkuRsjhFxpT5iT4EsMXAnwye6LqFXOqbCCfEI8klaetWQ8IfwtZRjgEhTaIrUcfTf_YuMWveotFwqGehMz4hF7XMqIdlTsCONzWLeE9hS7YX44w7w6rkvZGISZh2lg1qt5qlUfzZAay66A7d3tpbzZzBqU;
+      JSESSIONID=2A6889A465529AB652BECE9B9516283B
+    id: pair_0ef53db83f1548ef9d0304c33bdb62ee
+authentication: {}
+metaSortKey: -1637123813071
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
