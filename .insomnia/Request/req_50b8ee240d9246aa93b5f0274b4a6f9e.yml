@@ -1,0 +1,62 @@
+_id: req_50b8ee240d9246aa93b5f0274b4a6f9e
+type: Request
+parentId: fld_b00458058301450db3e5c88d3c2b3fd7
+modified: 1637123182349
+created: 1637123131242
+url: https://eduapp.educase.ch:62121/opencrx-rest-EDUCASE/org.opencrx.kernel.code1/provider/EDUCASE/segment/Root/valueContainer/memberRole/entry
+name: commit
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: size
+    value: "1000"
+    disabled: false
+headers:
+  - name: Connection
+    value: keep-alive
+  - name: Pragma
+    value: no-cache
+  - name: Cache-Control
+    value: no-cache
+  - name: sec-ch-ua
+    value: '"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"'
+  - name: Accept-Language
+    value: en
+  - name: sec-ch-ua-mobile
+    value: ?0
+  - name: Authorization
+    value: Bearer
+      eyJhbGciOiJSUzI1NiIsImtpZCI6IkQ1REU2NDJGQTc4RTlDNTAxMDI2QzQ2RURDRjAwQTdCNDk5M0MzRUIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiIxZDVrTDZlT25GQVFKc1J1M1BBS2UwbVR3LXMifQ.eyJuYmYiOjE2MzcxMjA0MDMsImV4cCI6MTYzNzE0OTIwMywiaXNzIjoiaHR0cHM6Ly9lZHVhcHAuZWR1Y2FzZS5jaDo2MjA5MyIsImF1ZCI6WyJodHRwczovL2VkdWFwcC5lZHVjYXNlLmNoOjYyMDkzL3Jlc291cmNlcyIsImlkZW50aXR5cHJvZmlsZSIsImFjY2Vzc3Byb2ZpbGUiLCJvcGVuY3J4X2FjY2VzcyIsIm9wZW5jcnhfaWRlbnRpdHkiXSwiY2xpZW50X2lkIjoiRWR1MmJGcm9udGVuZF9EZXYiLCJzdWIiOiIyMzY5NjQzNC00ZGM5LTQxYjMtYmQxMi0yMGJjMmYwZDA3YmMiLCJhdXRoX3RpbWUiOjE2MzcxMjA0MDEsImlkcCI6ImxvY2FsIiwidXNyIjoiYm5lLmFkbWluIiwiZnVsbG5hbWUiOiJibmUuYWRtaW4iLCJuYW1lIjoiYm5lLmFkbWluIiwibWFuZGFudF9pZCI6IjA2N2I0ZmI5LTk5ZmYtNDU2Ny1hNGUzLTk5ZTg1ODA4MDY5YiIsIm1hbmRhbnRfbmFtZSI6Ik5ldyBERVYiLCJjcnhfc2VnbWVudCI6IkFFUyIsImp0aSI6IjRjNzUwYzUyZWJiMjU4OTA4YTJiNThiZjYwMWI0OTlkIiwic2NvcGUiOlsib3BlbmlkIiwiaWRlbnRpdHlwcm9maWxlIiwiYWNjZXNzcHJvZmlsZSIsIm9wZW5jcnhfYWNjZXNzIiwib3BlbmNyeF9pZGVudGl0eSJdLCJhbXIiOlsicHdkIl19.D-JNNdig9GGS7MnMtWmyuWvjwIaan_yWHboni6-D6phF-j8C1ewdZpW4IqEiKRu9COdKyV_RF0nrRUoQ7ksSWMRtA_SSrSEJqeltFQpo_HrT0vmWOdrgLU0rZD2MG6FFTm8Als8esBW4MeQKWjBckPA27hSD9dyChOXbWsAs-b8B3HkJ6JEzZxk-xeyxqrjBvUVNvR_G5HM_a8kYqDP6umbNs0oZMUoUqXHYwmBLqc1EQyFVE4Kk4k03rUc_DFuixYwQKj2jZP7m1fhCd4r34-pMjg00UfMjDw4UR1qXLOvOiW7988c1M8Qd99kA7Md2VC5lQ_b3pymmMcDtuO_QQg
+  - name: Accept
+    value: application/json
+  - name: User-Agent
+    value: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like
+      Gecko) Chrome/95.0.4638.69 Safari/537.36
+  - name: rewrite-fetchgroup
+    value: .+/all
+  - name: sec-ch-ua-platform
+    value: '"Windows"'
+  - name: Sec-Fetch-Site
+    value: same-origin
+  - name: Sec-Fetch-Mode
+    value: cors
+  - name: Sec-Fetch-Dest
+    value: empty
+  - name: Referer
+    value: https://eduapp.educase.ch:62121/index.html
+  - name: Cookie
+    value: .AspNetCore.Culture=c%3Den%7Cuic%3Den;
+      .AspNetCore.Antiforgery.XPucmAPmgBQ=CfDJ8JX97XhVi-VJj-MCsVggn6zHG670KTxi_kHWE236OKoHBRyah4NxpDSowU-ShmXcRV0-5nnuxjyAmnuf-xpKKLFRqJ_fxaQ0Y9UFaJyBbRxSKdWaMgI1tpxgyYgpkoxpp80JCxAUHAKZs1gQqrS-1wc;
+      idsrv.session=0eeb8c7acb4b37148aa2141d61aafdc8;
+      .AspNetCore.Identity.Application=CfDJ8JX97XhVi-VJj-MCsVggn6w2M8J5OIBtE9fORFzvO5A3-2wOCvE7xlVQK_Ks85_xnFeu8-1lmUGPzKrwGaEdkbw9xt_08H9jUbGMaSPHz6wBwH6JmJJU9Dsq3M6S4HQBdngpZHk_ihk59QFH9hm1RDIhFIdDIslSoRWpg-aQD1mGDegcx-UCzHi1TiYKqFrRxs5X9HPmuWznPArSMf4vSL6HITTcrPvV-YBDCkgTZ0e-OzNlc6nxsYciWs12hFa8M_B9HLNvh8Q_Q1Ydzo61parT_RfSiNQ289iOyDdLXutyOESu3HiVZrPvEd0LwLHY-Qcsw00ZoihaU-92cl1C4DIsydvr4QSI-ljlwRmUpTNtfUstji8B5LNkI8khL7Qj-O6G14sO2BVxXRbGYH4RS_6YyjNSTP30RwwQOfowYz93FsQFu-hTf1WSz7cTNRQk560BY1eMusCFsLNE2jRrIePqm6zH9qXofTVc1I2zQi2R1YNyahmoQj4OZmcXwnfRQPTwN1Xj4NUvh8Z5RCrcVBDiVBXjVjZ-TiIQNzKTjcxw0BYsNBbieOVMMggcucpTw-HN4lG2fserehb5v8mDJiOkdjYlB6jyPBVUtVH8JQrXzmuU-FApIz0PiSlFXIwZboQx4w-fYAB4E33mmXaJ55DJLfdkT2OE0x81NqZg1ylGDQnvu7EQhugP3Et02p9S8IG_sQyshUo3wp9tx0CQnJCf4FT9WToOhYycmSBWueclU1BYz82yS8IZetsK3QueDeUFWT0iAHTrxOnXjwRT0OqhPU62ZzQ05XH8QZzi3jyc5Mi-vUNlFdc02c_27UioK1f9ijGuJXlgY8H-4bpshXGGeSQ9L4MwHYeoyeL_Yis4e5bDW80jjZuBFh8djxPay4nFoZPJomBEuH7ss_bcND0RIxoyfaja4sslDbbVC_ouBG3BXF8S87EYLvnKGCP-8nA1PFwD2CcEKrQG8qYjMsnrh3BYVkyj53NhCRY3UJsMfh_QcRPsr4G1eVbt8-eUVZcHFbmdbYAONKbIPV2DM4mhRg-c151cjc1L7dyfFE34IU6bDqEnFaOJZ_wc3Qx7Fw5eZDHna25ZMC2MpJ13JvE_c9F39318Gx-p9VW9fooX;
+      JSESSIONID=6E0E8D5D767E72A3F7FBBF65CD7BD88F
+authentication: {}
+metaSortKey: -1637123131242
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
